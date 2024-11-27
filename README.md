@@ -1,6 +1,6 @@
 # 🎮 **Tic-Tac-Toe Game** 🚀
 
-Welcome to the ultimate **Tic-Tac-Toe** game! This is a modern, mobile-responsive version of the classic game, built with HTML, CSS, and JavaScript. Play with a friend, track your scores, and enjoy some awesome features like the contact creator to get in touch with the developer (me! 😎).
+Welcome to my **Tic-Tac-Toe** game! This is a modern, mobile-responsive version of the classic game, built with HTML, CSS, and JavaScript. Play with a friend, track your scores, and enjoy some awesome features like the contact creator to get in touch with the developer and ask any questions you have(me! 😎).
 
 ### 📝 **Game Description**
 Tic-Tac-Toe is a two-player game where players take turns marking spaces on a 3x3 grid. The first player to align three of their marks (either "X" or "O") in a row, column, or diagonal wins! 🏆
@@ -57,4 +57,4 @@ If you want to contact me or give feedback about the game, feel free to use the 
 ---
 
 ### 🚀 **Enjoy the Game!** 🥳
-If you like the game, give it a ⭐️ on GitHub and share it with your friends! Let’s spread the fun! 😄
+If you like the game, please give it a ⭐️ on GitHub and share it with your friends! Let’s spread the fun! 😄
