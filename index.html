@@ -1,0 +1,52 @@
+<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="menu" id="menu">
+        <span class="menu-icon" id="menuIcon">&#9776;</span>
+        <div class="menu-options" id="menuOptions">
+            <button id="restartButton">Restart</button>
+            <button id="stepBackButton">Step Back</button>
+            <button id="clearScoresButton">Clear Scores</button>
+        </div>
+    </div>
+  
+    <div class="container">
+        <h1>Tic-Tac-Toe</h1>
+        <div class="scores">
+            <span class="score blue">Blue (X): <span id="blueScore">0</span></span>
+            <span class="score red">Red (O): <span id="redScore">0</span></span>
+        </div>
+        <div class="board" id="board">
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+        </div>
+    </div>
+    <div class="popup" id="popup">
+        <div class="popup-content">
+            <p id="popupMessage"></p>
+            <button id="newGameButton">New Game</button>
+        </div>
+    </div>
+    <div class="victory-popup" id="victoryPopup">
+        <div class="popup-content">
+            <p id="victoryMessage"></p>
+            <button id="resetScoresButton">Restart Scores</button>
+        </div>
+    </div>
+    <canvas id="partyPoppers" style="position: absolute; top: 0; left: 0; pointer-events: none;"></canvas>
+    <script src="script.js"></script>
+</body>
+</html>
